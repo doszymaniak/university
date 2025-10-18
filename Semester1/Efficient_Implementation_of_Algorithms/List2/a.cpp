@@ -10,7 +10,7 @@ using namespace std;
 
 bool compare_pairs(ii &a, ii &b)
 {
-    return a.second < b.second;
+    return a.s < b.s;
 }
 
 int main()
@@ -43,8 +43,7 @@ int main()
         long long res = 0;
         for (int i = 1; i < mins.size(); i++)
         {
-            if (mins[i].f < curr_first_min)
-                curr_first_min = mins[i].f;
+            curr_first_min = min(curr_first_min, mins[i].f);
             res += mins[i].s;
         }
         res += curr_first_min;
