@@ -1,0 +1,37 @@
+8 6 6
+{
+    {
+        {
+            FF0000
+            FFFFFF
+            FFFFFF
+            FFFFFF
+        }
+        000000
+        000000
+        {
+            FFFFFF
+            FFFFFF
+            FFFFFF
+            0000FF
+        }
+    }
+    {
+        FFFF00
+        -
+        FFFF00
+        -
+    }
+    {
+        FFFF00
+        FFFF00
+        -
+        -
+    }
+    {
+        FFFF00
+        -
+        -
+        -
+    }
+}
