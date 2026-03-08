@@ -16,3 +16,11 @@ Please note that this repository is for educational purposes only, so some solut
 - [Functional Programming](./Semester1/Functional_Programming)
 - [Introduction to Programming in C](./Semester1/Introduction_to_Programming_in_C)
 - Space policy
+
+## 📚 Semester 2 [Summer 2025/2026]
+- Algebra
+- Another View of Economy
+- [C++ course](./Semester2/C++_course)
+- [Computer Architecture for Programmers](./Semester2/Computer_Architecture_for_Programmers)
+- Management in IT
+- [Programming methodology](./Semester2/Programming_methodology)
