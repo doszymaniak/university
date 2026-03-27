@@ -129,7 +129,7 @@ bool intersect(const Segment &seg1, const Segment &seg2)
     double v3 = cross(a, b, c);
     double v4 = cross(a, b, d);
     // Check for standard intersection
-    if ((v1 > EPS && v2 < -EPS || v1 < -EPS && v2 > EPS) && (v3 > EPS && v4 < -EPS || v3 < -EPS && v4 > EPS)) return 1;
+    if (((v1 > EPS && v2 < -EPS) || (v1 < -EPS && v2 > EPS)) && ((v3 > EPS && v4 < -EPS) || (v3 < -EPS && v4 > EPS))) return 1;
     // Check cases where an endpoint of one segment lies exactly on the other segment
     if (fabs(v1) < EPS && seg2.point_in_segment(a)) return 1;
     if (fabs(v2) < EPS && seg2.point_in_segment(b)) return 1;

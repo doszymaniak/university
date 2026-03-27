@@ -253,15 +253,15 @@ void test_triangle(vec &v, line &l)
 void test_pod()
 {
     cout << "POD TEST\n";
-    cout << (is_pod<point>::value ? "POINT IS POD\n" : "POINT IS NOT POD\n");
+    cout << (is_trivial<point>::value && is_standard_layout<point>::value ? "POINT IS POD\n" : "POINT IS NOT POD\n");
 
-    cout << (is_pod<vec>::value ? "VEC IS POD\n" : "VEC IS NOT POD\n");
+    cout << (is_trivial<vec>::value && is_standard_layout<vec>::value ? "VEC IS POD\n" : "VEC IS NOT POD\n");
 
-    cout << (is_pod<line>::value ? "LINE IS POD\n" : "LINE IS NOT POD\n");
+    cout << (is_trivial<line>::value && is_standard_layout<line>::value ? "LINE IS POD\n" : "LINE IS NOT POD\n");
 
-    cout << (is_pod<Segment>::value ? "SEGMENT IS POD\n" : "SEGMENT IS NOT POD\n");
+    cout << (is_trivial<Segment>::value && is_standard_layout<Segment>::value ? "SEGMENT IS POD\n" : "SEGMENT IS NOT POD\n");
 
-    cout << (is_pod<Triangle>::value ? "TRIANGLE IS POD\n" : "TRIANGLE IS NOT POD\n");
+    cout << (is_trivial<Triangle>::value && is_standard_layout<Triangle>::value ? "TRIANGLE IS POD\n" : "TRIANGLE IS NOT POD\n");
 }
 
 int main()
