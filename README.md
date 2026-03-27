@@ -22,5 +22,4 @@ Please note that this repository is for educational purposes only, so some solut
 - Another View of Economy
 - [C++ course](./Semester2/C++_course)
 - [Computer Architecture for Programmers](./Semester2/Computer_Architecture_for_Programmers)
-- Management in IT
 - [Programming methodology](./Semester2/Programming_methodology)
