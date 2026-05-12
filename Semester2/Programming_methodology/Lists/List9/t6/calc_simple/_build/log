@@ -1,0 +1,21 @@
+# dune utop
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /home/dominika/.cache/dune/db
+# Workspace root:
+# /home/dominika/university/Semester2/Programming_methodology/Lists/List9/t6/calc_simple
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /usr/bin/ocamlc.opt -config > /tmp/dune_cc9d6c_output
+$ (cd _build/default && /usr/bin/ocamldep.opt -modules -impl lib/Decompiler.ml) > _build/default/lib/.calc.objs/calc__Decompiler.impl.d
+$ (cd _build/default && /usr/bin/ocamlc.opt -short-paths -keep-locs -warn-error +a -g -bin-annot -I lib/.calc.objs/byte -no-alias-deps -opaque -open Calc -o lib/.calc.objs/byte/calc__Decompiler.cmo -c -impl lib/Decompiler.ml)
+$ (cd _build/default && /usr/bin/ocamlc.opt -short-paths -keep-locs -warn-error +a -g -a -o lib/calc.cma lib/.calc.objs/byte/calc.cmo lib/.calc.objs/byte/calc__VM.cmo lib/.calc.objs/byte/calc__VMEval.cmo lib/.calc.objs/byte/calc__Ast.cmo lib/.calc.objs/byte/calc__Parser.cmo lib/.calc.objs/byte/calc__Lexer.cmo lib/.calc.objs/byte/calc__Eval.cmo lib/.calc.objs/byte/calc__Decompiler.cmo lib/.calc.objs/byte/calc__Compiler.cmo)
+$ (cd _build/default && /usr/bin/ocamlc.opt -short-paths -keep-locs -warn-error +a -w -24 -g -o .utop/utop.bc /usr/lib/ocaml/compiler-libs/ocamlcommon.cma /usr/lib/ocaml/compiler-libs/ocamlbytecomp.cma /usr/lib/ocaml/compiler-libs/ocamltoplevel.cma /home/dominika/.opam/default/lib/findlib/findlib.cma /home/dominika/.opam/default/lib/findlib/findlib_top.cma /home/dominika/.opam/default/lib/logs/logs.cma /home/dominika/.opam/default/lib/lwt/lwt.cma /home/dominika/.opam/default/lib/logs/lwt/logs_lwt.cma /usr/lib/ocaml/unix.cma /usr/lib/ocaml/bigarray.cma /home/dominika/.opam/default/lib/ocplib-endian/ocplib_endian.cma /home/dominika/.opam/default/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /usr/lib/ocaml/threads/threads.cma /home/dominika/.opam/default/lib/lwt/unix/lwt_unix.cma -I /home/dominika/.opam/default/lib/lwt/../stublibs /home/dominika/.opam/default/lib/react/react.cma /home/dominika/.opam/default/lib/lwt_react/lwt_react.cma /home/dominika/.opam/default/lib/result/result.cma /home/dominika/.opam/default/lib/uutf/uutf.cma /home/dominika/.opam/default/lib/uucp/uucp.cma /home/dominika/.opam/default/lib/uuseg/uuseg.cma /home/dominika/.opam/default/lib/zed/zed.cma /home/dominika/.opam/default/lib/trie/trie.cma /home/dominika/.opam/default/lib/mew/mew.cma /home/dominika/.opam/default/lib/mew_vi/mew_vi.cma /home/dominika/.opam/default/lib/lambda-term/lambda_term.cma -I /home/dominika/.opam/default/lib/lambda-term/../stublibs /home/dominika/.opam/default/lib/xdg/xdg.cma -I /home/dominika/.opam/default/lib/xdg/../stublibs /home/dominika/.opam/default/lib/utop/uTop.cma lib/calc.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
