@@ -1,0 +1,7 @@
+dune exec tcalc -- -eval -input "()"
+dune exec tcalc -- -eval -input "let x = 5 in ()"
+dune exec tcalc -- -eval -input "() + 1" (error)
+
+dune exec tcalc -- -eval -input "ref 1"
+dune exec tcalc -- -eval -input "!(ref 5)"
+dune exec tcalc -- -eval -input "let x = ref 5 in !(x)"
