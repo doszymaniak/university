@@ -1,14 +1,11 @@
 # university
-This repository contains solutions to selected programming exercises from courses I took at the **University of Wrocław**. It does not include theoretical exercises.
-Please note that this repository is for educational purposes only, so some solutions may contain bugs. Feel free to reach out if you notice any issues or want to discuss them! The tasks are in Polish, as that was the language in which they were originally provided.
+This repository contains solutions to selected programming exercises from courses I took at the University of Wrocław. It does not include theoretical exercises.
+Please note that this repository is for educational purposes only, so some solutions may contain bugs. Feel free to reach out if you notice any issues or want to discuss them!
 
 ## Courses taken previously
 - Logic for Computer Science
 - Calculus
 - Computing for Computer Scientists
-- Introduction to computer science
-- Front-end apps development
-- Object-oriented programming
 
 ## Semester 1 [Winter 2025/2026]
 - [Advanced Python Programming](./Semester1/Advanced_Python_Programming)
@@ -21,5 +18,5 @@ Please note that this repository is for educational purposes only, so some solut
 - Algebra
 - Another View of Economy
 - [C++ course](./Semester2/C++_course)
-- [Computer Architecture for Programmers](./Semester2/Computer_Architecture_for_Programmers)
+- Computer Architecture for Programmers
 - [Programming methodology](./Semester2/Programming_methodology)
