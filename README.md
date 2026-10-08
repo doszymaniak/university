@@ -20,3 +20,11 @@ Please note that this repository is for educational purposes only, so some solut
 - [C++ course](./Semester2/C++_course)
 - Computer Architecture for Programmers
 - [Programming methodology](./Semester2/Programming_methodology)
+
+## Semester 3 [Winter 2026/2027]
+- Advanced techniques in C++ and STL
+- Java course
+- Selected Aspects of Practical Software Development
+- Discrete Mathematics
+- Numerical Analysis
+- Intellectual Property Rights
