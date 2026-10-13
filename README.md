@@ -22,9 +22,9 @@ Please note that this repository is for educational purposes only, so some solut
 - [Programming methodology](./Semester2/Programming_methodology)
 
 ## Semester 3 [Winter 2026/2027]
-- Advanced techniques in C++ and STL
+- [Advanced techniques in C++ and STL](./Semester3/Advanced_techniques_in_C++_and_STL)
 - Java course
 - Selected Aspects of Practical Software Development
 - Discrete Mathematics
-- Numerical Analysis
+- [Numerical Analysis](./Semester3/Numerical_Analysis)
 - Intellectual Property Rights
