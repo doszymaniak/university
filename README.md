@@ -24,7 +24,7 @@ Please note that this repository is for educational purposes only, so some solut
 ## Semester 3 [Winter 2026/2027]
 - [Advanced techniques in C++ and STL](./Semester3/Advanced_techniques_in_C++_and_STL)
 - [Java course](./Semester3/Java_course)
-- Selected Aspects of Practical Software Development
+- [Selected Aspects of Practical Software Development](./Semester3/Selected_Aspects_of_Practical_Software_Development/)
 - Discrete Mathematics
 - [Numerical Analysis](./Semester3/Numerical_Analysis)
 - Intellectual Property Rights
